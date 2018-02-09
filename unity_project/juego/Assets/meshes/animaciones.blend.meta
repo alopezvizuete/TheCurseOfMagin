@@ -1,0 +1,618 @@
+fileFormatVersion: 2
+guid: 3fd0c2beb6b52c842a01f4d53b54ea0c
+timeCreated: 1488532627
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: antebrazo_L
+    100004: antebrazo_R
+    100006: Armature
+    100008: barriga
+    100010: cabeza
+    100012: cadera_L
+    100014: cadera_R
+    100016: Cube
+    100018: Cube_MeshPart0
+    100020: Cube_MeshPart1
+    100022: Cube_MeshPart2
+    100024: Cube_MeshPart3
+    100026: Cube_MeshPart4
+    100028: cuello
+    100030: gorro1
+    100032: gorro2
+    100034: gorro3
+    100036: gorro4
+    100038: hombro_L
+    100040: hombro_R
+    100042: humero_L
+    100044: humero_R
+    100046: mano_L
+    100048: mano_R
+    100050: pecho
+    100052: pie_L
+    100054: pie_R
+    100056: pierna_L
+    100058: pierna_R
+    100060: Varita
+    100062: Varita_0
+    400000: //RootNode
+    400002: antebrazo_L
+    400004: antebrazo_R
+    400006: Armature
+    400008: barriga
+    400010: cabeza
+    400012: cadera_L
+    400014: cadera_R
+    400016: Cube
+    400018: Cube_MeshPart0
+    400020: Cube_MeshPart1
+    400022: Cube_MeshPart2
+    400024: Cube_MeshPart3
+    400026: Cube_MeshPart4
+    400028: cuello
+    400030: gorro1
+    400032: gorro2
+    400034: gorro3
+    400036: gorro4
+    400038: hombro_L
+    400040: hombro_R
+    400042: humero_L
+    400044: humero_R
+    400046: mano_L
+    400048: mano_R
+    400050: pecho
+    400052: pie_L
+    400054: pie_R
+    400056: pierna_L
+    400058: pierna_R
+    400060: Varita
+    400062: Varita_0
+    4300000: Cube_MeshPart0
+    4300002: Cube_MeshPart1
+    4300004: Cube_MeshPart2
+    4300006: Cube_MeshPart3
+    4300008: Cube_MeshPart4
+    4300010: Varita
+    7400000: Default Take
+    7400002: hechizo_cerca
+    7400004: hechizo_lejos
+    7400006: stand
+    7400008: walking
+    9500000: //RootNode
+    13700000: Cube_MeshPart0
+    13700002: Cube_MeshPart1
+    13700004: Cube_MeshPart2
+    13700006: Cube_MeshPart3
+    13700008: Cube_MeshPart4
+    13700010: Varita
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/barriga
+        weight: 1
+      - path: Armature/barriga/cadera_L
+        weight: 1
+      - path: Armature/barriga/cadera_L/pierna_L
+        weight: 1
+      - path: Armature/barriga/cadera_L/pierna_L/pie_L
+        weight: 1
+      - path: Armature/barriga/cadera_R
+        weight: 1
+      - path: Armature/barriga/cadera_R/pierna_R
+        weight: 1
+      - path: Armature/barriga/cadera_R/pierna_R/pie_R
+        weight: 1
+      - path: Armature/pecho
+        weight: 1
+      - path: Armature/pecho/cuello
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2/gorro3
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2/gorro3/gorro4
+        weight: 1
+      - path: Armature/pecho/hombro_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L/mano_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L/mano_L/Varita_0
+        weight: 1
+      - path: Armature/pecho/hombro_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R/antebrazo_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R/antebrazo_R/mano_R
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube/Cube_MeshPart0
+        weight: 1
+      - path: Cube/Cube_MeshPart1
+        weight: 1
+      - path: Cube/Cube_MeshPart2
+        weight: 1
+      - path: Cube/Cube_MeshPart3
+        weight: 1
+      - path: Cube/Cube_MeshPart4
+        weight: 1
+      - path: Varita
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hechizo_cerca
+      takeName: hechizo_cerca
+      firstFrame: 0
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/barriga
+        weight: 1
+      - path: Armature/barriga/cadera_L
+        weight: 1
+      - path: Armature/barriga/cadera_L/pierna_L
+        weight: 1
+      - path: Armature/barriga/cadera_L/pierna_L/pie_L
+        weight: 1
+      - path: Armature/barriga/cadera_R
+        weight: 1
+      - path: Armature/barriga/cadera_R/pierna_R
+        weight: 1
+      - path: Armature/barriga/cadera_R/pierna_R/pie_R
+        weight: 1
+      - path: Armature/pecho
+        weight: 1
+      - path: Armature/pecho/cuello
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2/gorro3
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2/gorro3/gorro4
+        weight: 1
+      - path: Armature/pecho/hombro_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L/mano_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L/mano_L/Varita_0
+        weight: 1
+      - path: Armature/pecho/hombro_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R/antebrazo_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R/antebrazo_R/mano_R
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube/Cube_MeshPart0
+        weight: 1
+      - path: Cube/Cube_MeshPart1
+        weight: 1
+      - path: Cube/Cube_MeshPart2
+        weight: 1
+      - path: Cube/Cube_MeshPart3
+        weight: 1
+      - path: Cube/Cube_MeshPart4
+        weight: 1
+      - path: Varita
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hechizo_lejos
+      takeName: hechizo_lejos
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/barriga
+        weight: 1
+      - path: Armature/barriga/cadera_L
+        weight: 1
+      - path: Armature/barriga/cadera_L/pierna_L
+        weight: 1
+      - path: Armature/barriga/cadera_L/pierna_L/pie_L
+        weight: 1
+      - path: Armature/barriga/cadera_R
+        weight: 1
+      - path: Armature/barriga/cadera_R/pierna_R
+        weight: 1
+      - path: Armature/barriga/cadera_R/pierna_R/pie_R
+        weight: 1
+      - path: Armature/pecho
+        weight: 1
+      - path: Armature/pecho/cuello
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2/gorro3
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2/gorro3/gorro4
+        weight: 1
+      - path: Armature/pecho/hombro_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L/mano_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L/mano_L/Varita_0
+        weight: 1
+      - path: Armature/pecho/hombro_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R/antebrazo_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R/antebrazo_R/mano_R
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube/Cube_MeshPart0
+        weight: 1
+      - path: Cube/Cube_MeshPart1
+        weight: 1
+      - path: Cube/Cube_MeshPart2
+        weight: 1
+      - path: Cube/Cube_MeshPart3
+        weight: 1
+      - path: Cube/Cube_MeshPart4
+        weight: 1
+      - path: Varita
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: stand
+      takeName: stand
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/barriga
+        weight: 1
+      - path: Armature/barriga/cadera_L
+        weight: 1
+      - path: Armature/barriga/cadera_L/pierna_L
+        weight: 1
+      - path: Armature/barriga/cadera_L/pierna_L/pie_L
+        weight: 1
+      - path: Armature/barriga/cadera_R
+        weight: 1
+      - path: Armature/barriga/cadera_R/pierna_R
+        weight: 1
+      - path: Armature/barriga/cadera_R/pierna_R/pie_R
+        weight: 1
+      - path: Armature/pecho
+        weight: 1
+      - path: Armature/pecho/cuello
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2/gorro3
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2/gorro3/gorro4
+        weight: 1
+      - path: Armature/pecho/hombro_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L/mano_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L/mano_L/Varita_0
+        weight: 1
+      - path: Armature/pecho/hombro_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R/antebrazo_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R/antebrazo_R/mano_R
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube/Cube_MeshPart0
+        weight: 1
+      - path: Cube/Cube_MeshPart1
+        weight: 1
+      - path: Cube/Cube_MeshPart2
+        weight: 1
+      - path: Cube/Cube_MeshPart3
+        weight: 1
+      - path: Cube/Cube_MeshPart4
+        weight: 1
+      - path: Varita
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walking
+      takeName: walking
+      firstFrame: 0
+      lastFrame: 32
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/barriga
+        weight: 1
+      - path: Armature/barriga/cadera_L
+        weight: 1
+      - path: Armature/barriga/cadera_L/pierna_L
+        weight: 1
+      - path: Armature/barriga/cadera_L/pierna_L/pie_L
+        weight: 1
+      - path: Armature/barriga/cadera_R
+        weight: 1
+      - path: Armature/barriga/cadera_R/pierna_R
+        weight: 1
+      - path: Armature/barriga/cadera_R/pierna_R/pie_R
+        weight: 1
+      - path: Armature/pecho
+        weight: 1
+      - path: Armature/pecho/cuello
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2/gorro3
+        weight: 1
+      - path: Armature/pecho/cuello/cabeza/gorro1/gorro2/gorro3/gorro4
+        weight: 1
+      - path: Armature/pecho/hombro_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L/mano_L
+        weight: 1
+      - path: Armature/pecho/hombro_L/humero_L/antebrazo_L/mano_L/Varita_0
+        weight: 1
+      - path: Armature/pecho/hombro_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R/antebrazo_R
+        weight: 1
+      - path: Armature/pecho/hombro_R/humero_R/antebrazo_R/mano_R
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Cube/Cube_MeshPart0
+        weight: 1
+      - path: Cube/Cube_MeshPart1
+        weight: 1
+      - path: Cube/Cube_MeshPart2
+        weight: 1
+      - path: Cube/Cube_MeshPart3
+        weight: 1
+      - path: Cube/Cube_MeshPart4
+        weight: 1
+      - path: Varita
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.07225
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

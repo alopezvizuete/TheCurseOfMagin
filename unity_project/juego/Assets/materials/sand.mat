@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: sand
+  m_Shader: {fileID: 4800000, guid: 76374158b4c4e5744b394e9290aae693, type: 3}
+  m_ShaderKeywords: _COLOR_ON _TEX_ON
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 4f537e7a91c6438408da1e5d1e8f4525, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ToonShade
+      second:
+        m_Texture: {fileID: 2800000, guid: abb3df47a7f4cc341ada3b8cf5186154, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Brightness
+      second: 1
+    - first:
+        name: _DetailTex
+      second: 1
+    - first:
+        name: _Outline
+      second: 0.01
+    - first:
+        name: _TintColor
+      second: 1
+    - first:
+        name: _VertexColor
+      second: 0
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.88286, g: 1, b: 0.8455882, a: 0.466}
+    - first:
+        name: _OutlineColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}

@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: 99a0f49db1993b143a96190b4d62db7b
+timeCreated: 1492012642
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: antebrazo.L
+    100004: antebrazo.R
+    100006: Armature
+    100008: barriga
+    100010: cabeza
+    100012: cadera.L
+    100014: cadera.R
+    100016: Cube
+    100018: cuello
+    100020: gorro1
+    100022: gorro2
+    100024: gorro3
+    100026: gorro4
+    100028: gorro4_end
+    100030: Hemi
+    100032: hombro.L
+    100034: hombro.R
+    100036: humero.L
+    100038: humero.R
+    100040: mano.L
+    100042: mano.R
+    100044: mano.R_end
+    100046: pecho
+    100048: pie.L
+    100050: pie.L_end
+    100052: pie.R
+    100054: pie.R_end
+    100056: pierna.L
+    100058: pierna.R
+    100060: Plane
+    100062: Varita
+    100064: Varita 1
+    100066: Varita_end
+    400000: //RootNode
+    400002: antebrazo.L
+    400004: antebrazo.R
+    400006: Armature
+    400008: barriga
+    400010: cabeza
+    400012: cadera.L
+    400014: cadera.R
+    400016: Cube
+    400018: cuello
+    400020: gorro1
+    400022: gorro2
+    400024: gorro3
+    400026: gorro4
+    400028: gorro4_end
+    400030: Hemi
+    400032: hombro.L
+    400034: hombro.R
+    400036: humero.L
+    400038: humero.R
+    400040: mano.L
+    400042: mano.R
+    400044: mano.R_end
+    400046: pecho
+    400048: pie.L
+    400050: pie.L_end
+    400052: pie.R
+    400054: pie.R_end
+    400056: pierna.L
+    400058: pierna.R
+    400060: Plane
+    400062: Varita
+    400064: Varita 1
+    400066: Varita_end
+    2300000: Plane
+    3300000: Plane
+    4300000: Plane
+    4300002: Cube
+    4300004: Varita
+    7400000: stand
+    7400002: Plane|Action
+    7400004: Plane|CubeAction
+    7400006: Plane|death_animation
+    7400008: Plane|death_animation.001
+    7400010: Plane|hechizo_cerca
+    7400012: Plane|hechizo_lejos
+    7400014: Plane|hechizo_lejos.001
+    7400016: Plane|Sangre
+    7400018: Plane|stand
+    7400020: Plane|stand blocking
+    7400022: Plane|VaritaAction
+    7400024: Plane|walking
+    7400026: Armature|Action
+    7400028: Armature|CubeAction
+    7400030: Armature|death_animation
+    7400032: Armature|death_animation.001
+    7400034: Armature|death_animation_2
+    7400036: Armature|hechizo_cerca
+    7400038: Armature|hechizo_lejos
+    7400040: Armature|hechizo_lejos.001
+    7400042: Armature|Sangre
+    7400044: Armature|stand
+    7400046: Armature|stand blocking
+    7400048: Armature|VaritaAction
+    7400050: Armature|walking
+    7400052: Hemi|Action
+    7400054: Hemi|CubeAction
+    7400056: Hemi|death_animation
+    7400058: Hemi|death_animation.001
+    7400060: Hemi|hechizo_cerca
+    7400062: Hemi|hechizo_lejos
+    7400064: Hemi|hechizo_lejos.001
+    7400066: Hemi|Sangre
+    7400068: Hemi|stand
+    7400070: Hemi|stand blocking
+    7400072: Hemi|VaritaAction
+    7400074: Hemi|walking
+    9500000: //RootNode
+    13700000: Cube
+    13700002: Varita
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 3fd0c2beb6b52c842a01f4d53b54ea0c,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

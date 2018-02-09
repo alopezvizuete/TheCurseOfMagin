@@ -1,0 +1,12 @@
+
+Ducumento de diseño:
+https://docs.google.com/document/d/10Vnc5a8IhIBnjgg5JXMDhou_4S3pUp6VP1wtbGOmHZw/edit?usp=sharing
+
+Documento técnico:
+
+-------------------------
+Otros enlaces de interés:
+-------------------------
+
+Persistencia:
+https://unity3d.com/es/learn/tutorials/topics/scripting/persistence-saving-and-loading-data

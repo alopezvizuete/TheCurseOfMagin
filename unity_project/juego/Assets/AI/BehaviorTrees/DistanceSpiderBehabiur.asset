@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1227330239, guid: 9fa2ecd1ff2ad394281dd3bf72c5b76e, type: 3}
+  m_Name: DistanceSpiderBehabiur
+  m_EditorClassIdentifier: 
+  _dataSerializer:
+    _serializedData: <scriptableobject version="1.3" type="RAIN.BehaviorTrees.BTAsset"><fields><field
+      value="&lt;behaviortree version=&quot;1.1&quot; repeatuntil=&quot;&quot; name=&quot;DistanceSpiderBehabiur&quot;
+      debugbreak=&quot;False&quot;&gt;&lt;sequencer usepriorities=&quot;False&quot;
+      repeatuntil=&quot;&quot; name=&quot;root&quot; debugbreak=&quot;False&quot;&gt;&lt;selector
+      usepriorities=&quot;False&quot; repeatuntil=&quot;&quot; priority=&quot;&quot;
+      name=&quot;IsDead?&quot; debugbreak=&quot;False&quot;&gt;&lt;constraint repeatuntil=&quot;&quot;
+      priority=&quot;&quot; name=&quot;Yes&quot; debugbreak=&quot;False&quot; constraint=&quot;dead==true&quot;&gt;&lt;sequencer
+      usepriorities=&quot;False&quot; repeatuntil=&quot;&quot; name=&quot;parallel&quot;
+      debugbreak=&quot;False&quot;&gt;&lt;animate repeatuntil=&quot;&quot; priority=&quot;&quot;
+      name=&quot;Die&quot; debugbreak=&quot;False&quot; animationstate=&quot;die&quot;
+      /&gt;&lt;animate repeatuntil=&quot;running&quot; priority=&quot;&quot; name=&quot;dead&quot;
+      debugbreak=&quot;False&quot; animationstate=&quot;dead&quot; /&gt;&lt;/sequencer&gt;&lt;/constraint&gt;&lt;constraint
+      repeatuntil=&quot;&quot; priority=&quot;&quot; name=&quot;No&quot; debugbreak=&quot;False&quot;
+      constraint=&quot;dead!=true&quot;&gt;&lt;parallel tiebreaker=&quot;succeed&quot;
+      succeed=&quot;any&quot; repeatuntil=&quot;&quot; name=&quot;parallel&quot; fail=&quot;any&quot;
+      debugbreak=&quot;False&quot;&gt;&lt;detect sensor=&quot;&amp;quot;visualSensor&amp;quot;&quot;
+      repeatuntil=&quot;running&quot; name=&quot;detectFar&quot; matchtype=&quot;best&quot;
+      entityobjectvariable=&quot;detPlayer&quot; debugbreak=&quot;False&quot; consistent=&quot;True&quot;
+      aspectvariable=&quot;&quot; aspectobjectvariable=&quot;&quot; aspect=&quot;&amp;quot;Player&amp;quot;&quot;
+      /&gt;&lt;selector usepriorities=&quot;False&quot; repeatuntil=&quot;&quot; name=&quot;Is
+      detected?&quot; debugbreak=&quot;False&quot;&gt;&lt;constraint repeatuntil=&quot;&quot;
+      priority=&quot;&quot; name=&quot;No&quot; debugbreak=&quot;False&quot; constraint=&quot;detPlayer==null&quot;&gt;&lt;sequencer
+      usepriorities=&quot;False&quot; repeatuntil=&quot;&quot; name=&quot;sequencer&quot;
+      debugbreak=&quot;False&quot;&gt;&lt;action repeatuntil=&quot;&quot; priority=&quot;&quot;
+      parametervalues=&quot;&quot; parameters=&quot;&quot; namespace=&quot;&quot;
+      name=&quot;ChoseLocation&quot; debugbreak=&quot;False&quot; classname=&quot;enemyTargetSelection&quot;
+      /&gt;&lt;parallel tiebreaker=&quot;fail&quot; succeed=&quot;any&quot; repeatuntil=&quot;&quot;
+      priority=&quot;&quot; name=&quot;parallel&quot; fail=&quot;any&quot; debugbreak=&quot;False&quot;&gt;&lt;move
+      turnspeed=&quot;&quot; repeatuntil=&quot;&quot; name=&quot;move&quot; movetarget=&quot;directionVector&quot;
+      movespeed=&quot;0.6&quot; facetarget=&quot;directionVector&quot; debugbreak=&quot;False&quot;
+      closeenoughdistance=&quot;&quot; closeenoughangle=&quot;&quot; /&gt;&lt;animate
+      repeatuntil=&quot;&quot; name=&quot;Walk&quot; debugbreak=&quot;False&quot;
+      animationstate=&quot;walk&quot; /&gt;&lt;/parallel&gt;&lt;parallel tiebreaker=&quot;fail&quot;
+      succeed=&quot;any&quot; repeatuntil=&quot;&quot; priority=&quot;&quot; name=&quot;parallel&quot;
+      fail=&quot;any&quot; debugbreak=&quot;False&quot;&gt;&lt;timer waitforsec=&quot;random(1,
+      3)&quot; returnvalue=&quot;success&quot; name=&quot;timer&quot; debugbreak=&quot;False&quot;
+      /&gt;&lt;animate repeatuntil=&quot;&quot; name=&quot;Idle&quot; debugbreak=&quot;False&quot;
+      animationstate=&quot;idle&quot; /&gt;&lt;/parallel&gt;&lt;/sequencer&gt;&lt;/constraint&gt;&lt;constraint
+      repeatuntil=&quot;&quot; priority=&quot;&quot; name=&quot;Yes&quot; debugbreak=&quot;False&quot;
+      constraint=&quot;detPlayer!=null&quot;&gt;&lt;parallel tiebreaker=&quot;succeed&quot;
+      succeed=&quot;any&quot; repeatuntil=&quot;&quot; name=&quot;parallel&quot; fail=&quot;any&quot;
+      debugbreak=&quot;False&quot;&gt;&lt;detect sensor=&quot;&amp;quot;nearVisualSensor&amp;quot;&quot;
+      repeatuntil=&quot;running&quot; name=&quot;detectNear&quot; matchtype=&quot;best&quot;
+      entityobjectvariable=&quot;detPlayer1&quot; debugbreak=&quot;False&quot; consistent=&quot;True&quot;
+      aspectvariable=&quot;&quot; aspectobjectvariable=&quot;&quot; aspect=&quot;&amp;quot;Player&amp;quot;&quot;
+      /&gt;&lt;selector usepriorities=&quot;False&quot; repeatuntil=&quot;&quot; name=&quot;Is
+      detected?&quot; debugbreak=&quot;False&quot;&gt;&lt;constraint repeatuntil=&quot;&quot;
+      priority=&quot;&quot; name=&quot;Yes&quot; debugbreak=&quot;False&quot; constraint=&quot;detPlayer1!=null&quot;&gt;&lt;sequencer
+      usepriorities=&quot;False&quot; repeatuntil=&quot;&quot; name=&quot;sequencer&quot;
+      debugbreak=&quot;False&quot;&gt;&lt;action repeatuntil=&quot;&quot; priority=&quot;&quot;
+      parametervalues=&quot;&quot; parameters=&quot;&quot; namespace=&quot;(global)&quot;
+      name=&quot;RunChooseLocation&quot; debugbreak=&quot;False&quot; classname=&quot;RunChooseLocation&quot;
+      /&gt;&lt;parallel tiebreaker=&quot;succeed&quot; succeed=&quot;any&quot; repeatuntil=&quot;&quot;
+      priority=&quot;&quot; name=&quot;parallel&quot; fail=&quot;any&quot; debugbreak=&quot;False&quot;&gt;&lt;move
+      turnspeed=&quot;&quot; repeatuntil=&quot;&quot; name=&quot;Run&quot; movetarget=&quot;runDirectionVector&quot;
+      movespeed=&quot;0.8&quot; facetarget=&quot;runDirectionVector&quot; debugbreak=&quot;False&quot;
+      closeenoughdistance=&quot;&quot; closeenoughangle=&quot;&quot; /&gt;&lt;animate
+      repeatuntil=&quot;&quot; name=&quot;walk&quot; debugbreak=&quot;False&quot;
+      animationstate=&quot;walk&quot; /&gt;&lt;/parallel&gt;&lt;/sequencer&gt;&lt;/constraint&gt;&lt;constraint
+      repeatuntil=&quot;&quot; priority=&quot;&quot; name=&quot;No&quot; debugbreak=&quot;False&quot;
+      constraint=&quot;detPlayer1==null&quot;&gt;&lt;sequencer usepriorities=&quot;False&quot;
+      repeatuntil=&quot;&quot; name=&quot;sequencer&quot; debugbreak=&quot;False&quot;&gt;&lt;move
+      turnspeed=&quot;360&quot; repeatuntil=&quot;&quot; priority=&quot;&quot; name=&quot;face&quot;
+      movetarget=&quot;&quot; movespeed=&quot;&quot; facetarget=&quot;detPlayer&quot;
+      debugbreak=&quot;False&quot; closeenoughdistance=&quot;&quot; closeenoughangle=&quot;&quot;
+      /&gt;&lt;animate repeatuntil=&quot;&quot; priority=&quot;&quot; name=&quot;attack&quot;
+      debugbreak=&quot;False&quot; animationstate=&quot;attack&quot; /&gt;&lt;timer
+      waitforsec=&quot;0.5&quot; returnvalue=&quot;failure&quot; priority=&quot;&quot;
+      name=&quot;timer&quot; debugbreak=&quot;False&quot; /&gt;&lt;/sequencer&gt;&lt;/constraint&gt;&lt;/selector&gt;&lt;/parallel&gt;&lt;/constraint&gt;&lt;/selector&gt;&lt;/parallel&gt;&lt;/constraint&gt;&lt;/selector&gt;&lt;/sequencer&gt;&lt;/behaviortree&gt;"
+      type="System.String" id="treeData" /><field type="System.Array" id="treeBindings"
+      elementtype="System.String" /></fields><references /></scriptableobject>
+    _serializedGameObjects: []
+    _serializedCustomData: []
